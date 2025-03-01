@@ -11,4 +11,4 @@ def minutes_elapsed():
 while True:
     time.sleep(60)
     if minutes_elapsed() >= 4320:
-        os.system('systemctl reboot -i')
+        os.system('/bin/systemctl reboot -i')
